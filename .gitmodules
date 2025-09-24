@@ -1,0 +1,6 @@
+[submodule "LFS-backend"]
+	path = LFS-backend
+	url = https://github.com/Thales-nn/LFS-backend
+[submodule "LFS-frontend"]
+	path = LFS-frontend
+	url = https://github.com/Thales-nn/LFS-frontend
