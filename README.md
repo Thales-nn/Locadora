@@ -1,20 +1,128 @@
-# LFS – Locadora de Filmes e Séries
+# LFS — Locadora de Filmes e Séries
+Sistema de Gerenciamento de Locações
 
-Sistema completo de locação de filmes e séries, com backend em Java e frontend web, desenvolvido como trabalho da disciplina de **Engenharia de Software**.
+O **LFS (Locadora de Filmes e Séries)** é um sistema completo para gerenciamento de locações, permitindo controlar clientes, usuários, acervo, pagamentos e histórico de locações.  
+O objetivo é automatizar processos, reduzir erros manuais e organizar as informações de forma eficiente.
 
-O repositório reúne o código da aplicação, a documentação do processo (requisitos, análise, implementação, testes, implantação e gerenciamento) e a descrição da infraestrutura criada na AWS.
+Este repositório contém:
+
+- **Frontend:** HTML, CSS e JavaScript  
+- **Backend:** Java + Spring Boot  
+- **Banco de Dados:** PostgreSQL  
+
+---
+
+# 📁 Estrutura do Repositório
+
+```
+1. Requisitos
+│── Casos de Uso
+│   ├── LFS - Caso de Uso 01 - Gerenciar Usuários.docx
+│   ├── LFS - Caso de Uso 02 - Gerenciar Clientes.docx
+│   ├── LFS - Caso de Uso 03 - Gerenciar Acervo.docx
+│   ├── LFS - Caso de Uso 04 - Gerenciar Locações.docx
+│   ├── LFS - Caso de Uso 05 - Gerenciar Pagamentos.docx
+│   ├── LFS - Caso de Uso 06 - Consultar Histórico.docx
+│   └── LFS - Caso de Uso 07 - Gerar Relatórios.docx
+│── LFS - Visão.docx
+
+2. Análise e Design
+│── LFS - Modelo de Análise e Design.asta
+
+3. Implementação
+│── LFS---Backend (Spring Boot)
+│── LFS---Frontend (HTML/CSS/JS)
+│── application.properties
+│── script.sql
+
+4. Teste
+│── LFS - Roteiro de Testes.xlsx
+
+5. Implantação
+│── LFS - Guia de Implantação.docx
+│── LFS - Manual do Usuário.docx
+│── LFS - Script de Implantação.docx
+
+6. Gerenciamento de Projeto
+│── LFS - Planejamento do Projeto.xlsx
+│── LFS - Checklist de Verificação.xlsx
+
+README.md
+```
 
 ---
 
-## 📌 Visão Geral do Projeto
+# ✔ Funcionalidades Principais
 
-A aplicação permite que usuários:
+### **Gerenciar Usuários**
+- Cadastro, atualização e remoção  
+- Controle de permissões  
+- Login e autenticação  
 
-- realizem cadastro e login;
-- consultem o catálogo de filmes e séries;
-- realizem locações;
-- registrem devoluções.
+### **Gerenciar Clientes**
+- Cadastro de clientes  
+- Consulta e edição  
+- Histórico vinculado a locações  
 
-O foco do projeto é mostrar um sistema com **arquitetura bem definida**, **deploy na nuvem** e **organização de processo** ao longo do semestre.
+### **Gerenciar Acervo**
+- Filmes  
+- Séries  
+- Categorias e status de disponibilidade  
+
+### **Gerenciar Locações**
+- Registrar nova locação  
+- Renovar  
+- Finalizar / Devolver  
+- Cálculo automático de valores  
+
+### **Gerenciar Pagamentos**
+- Registro de pagamentos  
+- Valores pendentes  
+- Controle de multas  
+
+### **Consultar Histórico**
+- Histórico completo de locações  
+- Filtros por cliente, mídia e datas  
+
+### **Gerar Relatórios**
+- Relatórios de movimentação  
+- Relatórios de acervo  
+- Relatórios financeiros  
 
 ---
+
+# 🛠 Tecnologias Utilizadas
+
+- Java 17  
+- Spring Boot  
+- HTML, CSS, JavaScript  
+- PostgreSQL  
+- MVC  
+- API REST  
+
+---
+
+# 📦 Como Executar o Projeto
+
+## Backend (Spring Boot)
+```bash
+cd LFS---Backend
+mvn spring-boot:run
+```
+
+## Frontend
+Abra o arquivo:
+```
+LFS---Frontend/index.html
+```
+
+## Banco de Dados
+Execute no PostgreSQL:
+```
+script.sql
+```
+
+---
+
+# 📜 Licença
+Projeto acadêmico — uso educacional.
