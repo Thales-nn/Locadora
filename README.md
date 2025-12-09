@@ -1,8 +1,8 @@
-# LFS — Locadora de Filmes e Séries
+# 🎬LFS — Locadora de Filmes e Séries
 Sistema de Gerenciamento de Locações
 
-O **LFS (Locadora de Filmes e Séries)** é um sistema completo para gerenciamento de locações, permitindo controlar clientes, usuários, acervo, pagamentos e histórico de locações.  
-O objetivo é automatizar processos, reduzir erros manuais e organizar as informações de forma eficiente.
+O LFS (Locadora de Filmes e Séries) é um sistema completo para gerenciamento de locações, permitindo controlar clientes, usuários, acervo, pagamentos e histórico de locações de forma eficiente.
+O sistema foi desenvolvido para otimizar processos de locadoras, reduzindo erros manuais, agilizando atendimentos e garantindo maior controle das informações.
 
 Este repositório contém:
 
@@ -96,9 +96,7 @@ README.md
 - Java 17  
 - Spring Boot  
 - HTML, CSS, JavaScript  
-- PostgreSQL  
-- MVC  
-- API REST  
+- PostgreSQL    
 
 ---
 
@@ -124,5 +122,7 @@ script.sql
 
 ---
 
-# 📜 Licença
-Projeto acadêmico — uso educacional.
+# 👨‍💻 Autor
+Thales Nogueira Nanuci
+Renan
+João
