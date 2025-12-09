@@ -123,6 +123,6 @@ script.sql
 ---
 
 # 👨‍💻 Autor
-Thales Nogueira Nanuci
-Renan
-João
+- **Thales Nogueira**
+- **Renan Coutinho**
+- **João**
