@@ -125,4 +125,4 @@ script.sql
 # 👨‍💻 Autor
 - **Thales Nogueira**
 - **Renan Coutinho**
-- **João**
+- **João Camargo**
