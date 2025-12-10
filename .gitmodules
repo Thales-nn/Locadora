@@ -1,6 +1,6 @@
 [submodule "3.Implementacao/LFS-backend"]
 	path = 3.Implementacao/LFS-backend
 	url = https://github.com/Thales-nn/LFS-backend
-[submodule "3.Implementacao/LFS-frontend"]
-	path = 3.Implementacao/LFS-frontend
+[submodule "3.Implementacao/LFS_LocadoradeFilmeseSeries_Codigo"]
+	path = 3.Implementacao/LFS_LocadoradeFilmeseSeries_Codigo
 	url = https://github.com/Thales-nn/LFS-frontend
