@@ -1,10 +1,10 @@
 ---
 name: Template Padrão
-about: algo
-title: c
+about: Descreva em detalhes a solicitação de nova funcionalidade, melhoria, problema, dúvida, etc.
+title: 
 labels: ''
 assignees: ''
 
 ---
 
-c
+Descrição da solicitação: Descreva em detalhes a solicitação de nova funcionalidade, melhoria, problema, dúvida, etc. Descrição da solução desejada: Descreva uma solução possível para a funcionalidade, problema, duvida, etc. Solicitante: Unidade e pessoa que solicitou Informações adicionais: Informações adicionais, imagens, etc.
