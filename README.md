@@ -100,6 +100,13 @@ README.md
 
 ---
 
+# Arquitetura do Sistema
+
+<img width="1571" height="741" alt="LocadoraLFS drawio" src="https://github.com/user-attachments/assets/62f6c399-8f80-484c-8eeb-f259a4dd3026" />
+Figura 1 – Arquitetura da infraestrutura na AWS.
+
+---
+
 # 📦 Como Executar o Projeto
 
 ## Backend (Spring Boot)
