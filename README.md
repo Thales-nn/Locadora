@@ -133,3 +133,4 @@ script.sql
 - **Thales Nogueira**
 - **Renan Coutinho**
 - **João Camargo**
+- **Ramon Caruso**
